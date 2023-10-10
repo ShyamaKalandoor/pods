@@ -7,6 +7,6 @@ metadata:
 spec:
   container:
    - name: nodeapp
-     image: skalandoor/pod/pod.yaml
+     image: skalandoor/pods/pod.yaml
      ports:
       - contaimerPort: 8080
