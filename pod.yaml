@@ -1,0 +1,11 @@
+kind: Pod
+metadata:
+  name: nodeapp
+  labels:
+    app: nodeapp
+spec:
+  container:
+   - name: nodeapp
+     image: kammana/nodeapp:tagVersion
+     ports:
+      - contaimerPort: 8080
